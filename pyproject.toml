@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "playlist-list"
+version = "0.1.0"
+description = "Collect all video titles from YouTube playlist"
+authors = ["suvanbek <=>"]
+readme = "README.md"
+packages = [{include = "playlist_list"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "^4.6.0"
+bs4 = "^0.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
